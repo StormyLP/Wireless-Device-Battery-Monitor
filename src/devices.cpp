@@ -58,6 +58,7 @@ std::vector<DeviceStatus> PollAllDevices() {
     PollVaxee(ctx);
     PollWlmouse(ctx);
     PollNinjutso(ctx);
+    PollFinalmouse(ctx);
     PollSprime(ctx);
     PollRongyuan(ctx);
     PollSonix(ctx);
