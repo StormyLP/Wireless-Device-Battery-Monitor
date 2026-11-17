@@ -53,6 +53,7 @@ void PollEndgame(PollContext& ctx);   // Endgame Gear 4K mice (OP1w 4k, XM2w 4k)
 void PollVaxee(PollContext& ctx);     // VAXEE 4K receiver / NP-01S V2 cable, read-only battery commands
 void PollWlmouse(PollContext& ctx);   // WLMouse Beast X family (VID 36A7)
 void PollNinjutso(PollContext& ctx);  // Sora V2 1K receiver (1915:AE1C)
+void PollFinalmouse(PollContext& ctx);  // Finalmouse UltralightX dongle (361D:0100), XPANEL protocol
 void PollSprime(PollContext& ctx);    // Sprime PM1 (1915:AC1C / AD8C receivers, AC11-AC13 cable)
 void PollRongyuan(PollContext& ctx);  // Rongyuan receivers (Attack Shark, Ajazz keyboards, ...)
 void PollSonyInzone(PollContext& ctx);  // Sony INZONE H9 II / H5 / Buds
